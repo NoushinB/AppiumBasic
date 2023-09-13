@@ -4,6 +4,7 @@ import java.io.File;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 import java.net.URISyntaxException;
 
 import org.testng.annotations.AfterClass;
@@ -35,7 +36,11 @@ public class BaseTest {
 		options.setDeviceName("NoushinEm");
 		options.setApp("D:\\maven\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
 		
-		driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
+		//driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
+		
+		URL url = new URL("http://127.0.0.1:4723");
+		driver = new AndroidDriver(url, options);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		//driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
 	}

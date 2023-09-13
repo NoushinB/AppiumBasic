@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import io.appium.java_client.AppiumBy;
 
-public class appiumBasic extends BaseTest {
+public class LongPress extends BaseTest {
 
 	@Test
 	public void appiumTest() throws MalformedURLException {
