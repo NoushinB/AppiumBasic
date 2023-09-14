@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-14T14:54:23Z" name="Default suite" finished-at="2023-09-14T14:54:52Z" duration-ms="28823">
+  <suite started-at="2023-09-14T15:40:14Z" name="Default suite" finished-at="2023-09-14T15:40:45Z" duration-ms="31001">
     <groups>
     </groups>
-    <test started-at="2023-09-14T14:54:23Z" name="Default test" finished-at="2023-09-14T14:54:52Z" duration-ms="28823">
-      <class name="noushinTest.DragDropDemo">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.DragDropDemo@59a008ba]" started-at="2023-09-14T14:54:23Z" name="configureAppium" finished-at="2023-09-14T14:54:41Z" duration-ms="18517" status="PASS">
+    <test started-at="2023-09-14T15:40:14Z" name="Default test" finished-at="2023-09-14T15:40:45Z" duration-ms="31001">
+      <class name="noushinTest.Assignment1">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.Assignment1@59a008ba]" started-at="2023-09-14T15:40:14Z" name="configureAppium" finished-at="2023-09-14T15:40:33Z" duration-ms="19323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="SwipeDemoTest()[pri:0, instance:noushinTest.DragDropDemo@59a008ba]" started-at="2023-09-14T14:54:41Z" name="SwipeDemoTest" finished-at="2023-09-14T14:54:49Z" duration-ms="8145" status="PASS">
+        <test-method signature="Assignment1Test()[pri:0, instance:noushinTest.Assignment1@59a008ba]" started-at="2023-09-14T15:40:33Z" name="Assignment1Test" finished-at="2023-09-14T15:40:42Z" duration-ms="8502" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwipeDemoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.DragDropDemo@59a008ba]" started-at="2023-09-14T14:54:49Z" name="tearDown" finished-at="2023-09-14T14:54:52Z" duration-ms="2120" status="PASS">
+        </test-method> <!-- Assignment1Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.Assignment1@59a008ba]" started-at="2023-09-14T15:40:42Z" name="tearDown" finished-at="2023-09-14T15:40:45Z" duration-ms="3133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- noushinTest.DragDropDemo -->
+      </class> <!-- noushinTest.Assignment1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

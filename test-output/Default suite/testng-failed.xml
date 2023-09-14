@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="noushinTest.SwipeDemo">
+      <class name="noushinTest.Assignment1">
         <methods>
           <include name="configureAppium"/>
           <include name="tearDown"/>
-          <include name="SwipeDemoTest"/>
+          <include name="Assignment1Test"/>
         </methods>
-      </class> <!-- noushinTest.SwipeDemo -->
+      </class> <!-- noushinTest.Assignment1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
