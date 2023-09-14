@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-14T09:58:21Z" name="Default suite" finished-at="2023-09-14T09:59:05Z" duration-ms="44201">
+  <suite started-at="2023-09-14T11:14:23Z" name="Default suite" finished-at="2023-09-14T11:15:05Z" duration-ms="41714">
     <groups>
     </groups>
-    <test started-at="2023-09-14T09:58:21Z" name="Default test" finished-at="2023-09-14T09:59:05Z" duration-ms="44201">
-      <class name="noushinTest.LongPress">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.LongPress@2421cc4]" started-at="2023-09-14T09:58:21Z" name="configureAppium" finished-at="2023-09-14T09:58:53Z" duration-ms="31242" status="PASS">
+    <test started-at="2023-09-14T11:14:23Z" name="Default test" finished-at="2023-09-14T11:15:05Z" duration-ms="41714">
+      <class name="noushinTest.ScrollDemo">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.ScrollDemo@30c93896]" started-at="2023-09-14T11:14:23Z" name="configureAppium" finished-at="2023-09-14T11:14:40Z" duration-ms="16101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="LongPressGesture()[pri:0, instance:noushinTest.LongPress@2421cc4]" started-at="2023-09-14T09:58:53Z" name="LongPressGesture" finished-at="2023-09-14T09:59:04Z" duration-ms="11128" status="PASS">
+        <test-method signature="ScrollDemoTest()[pri:0, instance:noushinTest.ScrollDemo@30c93896]" started-at="2023-09-14T11:14:40Z" name="ScrollDemoTest" finished-at="2023-09-14T11:15:02Z" duration-ms="22524" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LongPressGesture -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.LongPress@2421cc4]" started-at="2023-09-14T09:59:04Z" name="tearDown" finished-at="2023-09-14T09:59:05Z" duration-ms="1794" status="PASS">
+        </test-method> <!-- ScrollDemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.ScrollDemo@30c93896]" started-at="2023-09-14T11:15:02Z" name="tearDown" finished-at="2023-09-14T11:15:05Z" duration-ms="3046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- noushinTest.LongPress -->
+      </class> <!-- noushinTest.ScrollDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
