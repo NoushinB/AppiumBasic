@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-14T11:14:23Z" name="Default suite" finished-at="2023-09-14T11:15:05Z" duration-ms="41714">
+  <suite started-at="2023-09-14T14:28:56Z" name="Default suite" finished-at="2023-09-14T14:29:26Z" duration-ms="29322">
     <groups>
     </groups>
-    <test started-at="2023-09-14T11:14:23Z" name="Default test" finished-at="2023-09-14T11:15:05Z" duration-ms="41714">
-      <class name="noushinTest.ScrollDemo">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.ScrollDemo@30c93896]" started-at="2023-09-14T11:14:23Z" name="configureAppium" finished-at="2023-09-14T11:14:40Z" duration-ms="16101" status="PASS">
+    <test started-at="2023-09-14T14:28:56Z" name="Default test" finished-at="2023-09-14T14:29:26Z" duration-ms="29322">
+      <class name="noushinTest.SwipeDemo">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.SwipeDemo@59a008ba]" started-at="2023-09-14T14:28:57Z" name="configureAppium" finished-at="2023-09-14T14:29:12Z" duration-ms="15949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="ScrollDemoTest()[pri:0, instance:noushinTest.ScrollDemo@30c93896]" started-at="2023-09-14T11:14:40Z" name="ScrollDemoTest" finished-at="2023-09-14T11:15:02Z" duration-ms="22524" status="PASS">
+        <test-method signature="SwipeDemoTest()[pri:0, instance:noushinTest.SwipeDemo@59a008ba]" started-at="2023-09-14T14:29:12Z" name="SwipeDemoTest" finished-at="2023-09-14T14:29:23Z" duration-ms="10452" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScrollDemoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.ScrollDemo@30c93896]" started-at="2023-09-14T11:15:02Z" name="tearDown" finished-at="2023-09-14T11:15:05Z" duration-ms="3046" status="PASS">
+        </test-method> <!-- SwipeDemoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.SwipeDemo@59a008ba]" started-at="2023-09-14T14:29:23Z" name="tearDown" finished-at="2023-09-14T14:29:26Z" duration-ms="2886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- noushinTest.ScrollDemo -->
+      </class> <!-- noushinTest.SwipeDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
