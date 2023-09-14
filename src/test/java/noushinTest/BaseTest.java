@@ -7,8 +7,13 @@ import java.net.URL;
 import java.time.Duration;
 import java.net.URISyntaxException;
 
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+
+import com.google.common.collect.ImmutableMap;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
@@ -43,6 +48,13 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		//driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
+	}
+	
+	public void longPressAction(WebElement ele) {
+		 ((JavascriptExecutor)driver).executeScript("mobile: longClickGesture",
+				 ImmutableMap.of("elementId",((RemoteWebElement)ele).getId(),
+						 "duration",2000));
+		
 	}
 
 	@AfterClass

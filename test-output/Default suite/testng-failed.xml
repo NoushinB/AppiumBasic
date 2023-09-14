@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="noushinTest.appiumBasic">
+      <class name="noushinTest.LongPress">
         <methods>
+          <include name="LongPressGesture"/>
           <include name="configureAppium"/>
           <include name="tearDown"/>
-          <include name="appiumTest"/>
         </methods>
-      </class> <!-- noushinTest.appiumBasic -->
+      </class> <!-- noushinTest.LongPress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
