@@ -17,8 +17,6 @@ public class SwipeDemo extends BaseTest {
 
 	@Test
 	public void SwipeDemoTest() throws MalformedURLException, InterruptedException {
-		
-		
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
 		driver.findElement(AppiumBy.accessibilityId("Gallery")).click();
 		driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"1. Photos\"]")).click();
@@ -27,9 +25,5 @@ public class SwipeDemo extends BaseTest {
 		swipeDirection(firstImage,"Left");
 		//swipe
 		Assert.assertEquals(driver.findElement(By.xpath("//(android.widget.ImageView)[1]")).getAttribute("focusable"), "false");
-
-		
-		
-		
 	}
 }
