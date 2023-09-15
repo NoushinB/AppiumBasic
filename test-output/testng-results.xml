@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-14T16:55:24Z" name="Default suite" finished-at="2023-09-14T16:56:07Z" duration-ms="43583">
+  <suite started-at="2023-09-15T10:52:55Z" name="Default suite" finished-at="2023-09-15T10:53:31Z" duration-ms="36105">
     <groups>
     </groups>
-    <test started-at="2023-09-14T16:55:24Z" name="Default test" finished-at="2023-09-14T16:56:07Z" duration-ms="43583">
-      <class name="noushinTest.Assignment2">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.Assignment2@21ba0741]" started-at="2023-09-14T16:55:24Z" name="configureAppium" finished-at="2023-09-14T16:55:40Z" duration-ms="16478" status="PASS">
+    <test started-at="2023-09-15T10:52:55Z" name="Default test" finished-at="2023-09-15T10:53:31Z" duration-ms="36105">
+      <class name="noushinTest.MiscellaneousAppium">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.MiscellaneousAppium@21ba0741]" started-at="2023-09-15T10:52:55Z" name="configureAppium" finished-at="2023-09-15T10:53:12Z" duration-ms="17643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="Assignment2Test()[pri:0, instance:noushinTest.Assignment2@21ba0741]" started-at="2023-09-14T16:55:40Z" name="Assignment2Test" finished-at="2023-09-14T16:56:05Z" duration-ms="24741" status="PASS">
+        <test-method signature="appiumTest()[pri:0, instance:noushinTest.MiscellaneousAppium@21ba0741]" started-at="2023-09-15T10:53:12Z" name="appiumTest" finished-at="2023-09-15T10:53:29Z" duration-ms="16256" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Assignment2Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.Assignment2@21ba0741]" started-at="2023-09-14T16:56:05Z" name="tearDown" finished-at="2023-09-14T16:56:07Z" duration-ms="2319" status="PASS">
+        </test-method> <!-- appiumTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.MiscellaneousAppium@21ba0741]" started-at="2023-09-15T10:53:29Z" name="tearDown" finished-at="2023-09-15T10:53:31Z" duration-ms="2149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- noushinTest.Assignment2 -->
+      </class> <!-- noushinTest.MiscellaneousAppium -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
