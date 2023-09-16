@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-15T15:14:37Z" name="Default suite" finished-at="2023-09-15T15:15:29Z" duration-ms="51532">
+  <suite started-at="2023-09-16T15:46:11Z" name="Default suite" finished-at="2023-09-16T15:47:14Z" duration-ms="63498">
     <groups>
     </groups>
-    <test started-at="2023-09-15T15:14:37Z" name="Default test" finished-at="2023-09-15T15:15:29Z" duration-ms="51532">
-      <class name="noushinTest.MiscellaneousAppium">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.MiscellaneousAppium@21ba0741]" started-at="2023-09-15T15:14:37Z" name="configureAppium" finished-at="2023-09-15T15:15:08Z" duration-ms="30203" status="PASS">
+    <test started-at="2023-09-16T15:46:11Z" name="Default test" finished-at="2023-09-16T15:47:14Z" duration-ms="63498">
+      <class name="noushinTest.eCommerce_tc_1">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.eCommerce_tc_1@21ba0741]" started-at="2023-09-16T15:46:11Z" name="configureAppium" finished-at="2023-09-16T15:46:34Z" duration-ms="23053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="Miscellaneous()[pri:0, instance:noushinTest.MiscellaneousAppium@21ba0741]" started-at="2023-09-15T15:15:08Z" name="Miscellaneous" finished-at="2023-09-15T15:15:25Z" duration-ms="17660" status="PASS">
+        <test-method signature="FillForm()[pri:0, instance:noushinTest.eCommerce_tc_1@21ba0741]" started-at="2023-09-16T15:46:34Z" name="FillForm" finished-at="2023-09-16T15:47:12Z" duration-ms="38126" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Miscellaneous -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.MiscellaneousAppium@21ba0741]" started-at="2023-09-15T15:15:25Z" name="tearDown" finished-at="2023-09-15T15:15:29Z" duration-ms="3587" status="PASS">
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.eCommerce_tc_1@21ba0741]" started-at="2023-09-16T15:47:12Z" name="tearDown" finished-at="2023-09-16T15:47:14Z" duration-ms="2279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- noushinTest.MiscellaneousAppium -->
+      </class> <!-- noushinTest.eCommerce_tc_1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -40,8 +40,8 @@ public class BaseTest {
 
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("NoushinEm");
-		options.setApp("D:\\maven\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
-
+		//options.setApp("D:\\maven\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+		options.setApp("D:\\maven\\Appium\\src\\test\\java\\resources\\General-Store.apk");
 		// driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
 
 		URL url = new URL("http://127.0.0.1:4723");
