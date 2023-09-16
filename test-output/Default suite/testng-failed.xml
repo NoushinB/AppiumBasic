@@ -5,7 +5,9 @@
     <classes>
       <class name="noushinTest.MiscellaneousAppium">
         <methods>
-          <include name="miscellaneous"/>
+          <include name="configureAppium"/>
+          <include name="Miscellaneous"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- noushinTest.MiscellaneousAppium -->
     </classes>
