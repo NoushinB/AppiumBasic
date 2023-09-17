@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="noushinTest.eCommerce_tc_1">
+      <class name="noushinTest.eCommerce_tc_2">
         <methods>
           <include name="FillForm"/>
           <include name="configureAppium"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- noushinTest.eCommerce_tc_1 -->
+      </class> <!-- noushinTest.eCommerce_tc_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

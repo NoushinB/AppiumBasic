@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-17T21:53:09Z" name="Default suite" finished-at="2023-09-17T21:54:41Z" duration-ms="91148">
+  <suite started-at="2023-09-17T22:24:31Z" name="Default suite" finished-at="2023-09-17T22:26:01Z" duration-ms="90614">
     <groups>
     </groups>
-    <test started-at="2023-09-17T21:53:09Z" name="Default test" finished-at="2023-09-17T21:54:41Z" duration-ms="91148">
+    <test started-at="2023-09-17T22:24:31Z" name="Default test" finished-at="2023-09-17T22:26:01Z" duration-ms="90614">
       <class name="noushinTest.eCommerce_tc_2">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.eCommerce_tc_2@172b013]" started-at="2023-09-17T21:53:09Z" name="configureAppium" finished-at="2023-09-17T21:53:26Z" duration-ms="16152" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.eCommerce_tc_2@172b013]" started-at="2023-09-17T22:24:31Z" name="configureAppium" finished-at="2023-09-17T22:24:45Z" duration-ms="13960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="FillForm()[pri:0, instance:noushinTest.eCommerce_tc_2@172b013]" started-at="2023-09-17T21:53:26Z" name="FillForm" finished-at="2023-09-17T21:54:39Z" duration-ms="73665" status="PASS">
+        <test-method signature="FillForm()[pri:0, instance:noushinTest.eCommerce_tc_2@172b013]" started-at="2023-09-17T22:24:45Z" name="FillForm" finished-at="2023-09-17T22:26:00Z" duration-ms="75392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FillForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.eCommerce_tc_2@172b013]" started-at="2023-09-17T21:54:39Z" name="tearDown" finished-at="2023-09-17T21:54:41Z" duration-ms="1292" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.eCommerce_tc_2@172b013]" started-at="2023-09-17T22:26:00Z" name="tearDown" finished-at="2023-09-17T22:26:01Z" duration-ms="1227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
