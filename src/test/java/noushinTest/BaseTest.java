@@ -39,8 +39,11 @@ public class BaseTest {
 		// service.start();
 
 		UiAutomator2Options options = new UiAutomator2Options();
-		options.setDeviceName("NoushinEm");
-		//options.setApp("D:\\maven\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+		options.setDeviceName("NoushinEm2");
+		options.setChromedriverExecutable("D:\\drivers\\chromedriver_83_0_4103\\chromedriver.exe");
+		//options.setChromedriverExecutable("D:\\drivers\\chromedriver-win64\\chromedriver.exe");
+		//D:\drivers\chromedriver-win64
+		// options.setApp("D:\\maven\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
 		options.setApp("D:\\maven\\Appium\\src\\test\\java\\resources\\General-Store.apk");
 		// driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
 
@@ -71,8 +74,9 @@ public class BaseTest {
 		((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.of("elementId",
 				((RemoteWebElement) ele).getId(), "direction", direction, "percent", 0.75));
 	}
+
 	public Double getFormattedAmount(String amount) {
-		Double price= Double.parseDouble(amount.substring(1));
+		Double price = Double.parseDouble(amount.substring(1));
 		return price;
 	}
 
