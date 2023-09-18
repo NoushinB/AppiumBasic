@@ -71,6 +71,10 @@ public class BaseTest {
 		((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.of("elementId",
 				((RemoteWebElement) ele).getId(), "direction", direction, "percent", 0.75));
 	}
+	public Double getFormattedAmount(String amount) {
+		Double price= Double.parseDouble(amount.substring(1));
+		return price;
+	}
 
 	public WebElement findByAccessibilityId(String id) {
 		return driver.findElement(AppiumBy.accessibilityId(id));

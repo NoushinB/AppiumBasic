@@ -24,7 +24,6 @@ public class MiscellaneousAppium extends BaseTest {
 		//driver.findElement(AppiumBy.accessibilityId("Preference")).click();
 		//driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"3. Preference dependencies\"]")).click();
 		
-		
 		driver.findElement(AppiumBy.id("android:id/checkbox")).click();
 		DeviceRotation landScape = new DeviceRotation(0, 0, 90);
 		driver.rotate(landScape);
