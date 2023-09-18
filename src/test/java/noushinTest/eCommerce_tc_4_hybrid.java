@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -84,13 +83,18 @@ public class eCommerce_tc_4_hybrid extends BaseTest {
 		Thread.sleep(20000);
 
 		driver.context("WEBVIEW_com.androidsample.generalstore");
-		Thread.sleep(6000);
 
-		driver.findElement(AppiumBy.name("q")).sendKeys("rahul shetty academy");
-		Thread.sleep(6000);
-		driver.findElement(AppiumBy.name("q")).sendKeys(Keys.ENTER);
+		WebElement searchElement = driver.findElement(By.name("q"));
+
+		if (searchElement != null) {
+			searchElement.sendKeys("rahul shetty academy");
+			Thread.sleep(20000);
+			searchElement.sendKeys(Keys.ENTER);
+		}
+
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		driver.context("NATIVE_APP");
+
 		Thread.sleep(8000);
 		System.out.print(Ids.FINISH_MESSAGE);
 	}

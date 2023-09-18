@@ -39,7 +39,7 @@ public class BaseTest {
 		// service.start();
 
 		UiAutomator2Options options = new UiAutomator2Options();
-		options.setDeviceName("NoushinEm2");
+		options.setDeviceName("NoushinEm");
 		options.setChromedriverExecutable("D:\\drivers\\chromedriver_83_0_4103\\chromedriver.exe");
 		//options.setChromedriverExecutable("D:\\drivers\\chromedriver-win64\\chromedriver.exe");
 		//D:\drivers\chromedriver-win64

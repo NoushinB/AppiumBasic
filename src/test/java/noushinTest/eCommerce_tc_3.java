@@ -3,8 +3,6 @@ package noushinTest;
 import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -61,11 +59,11 @@ public class eCommerce_tc_3 extends BaseTest {
 		longPressAction(ele);
 
 		String alertTitle = driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/alertTitle")).getText();
-		
+
 		Assert.assertEquals(alertTitle, "Terms Of Conditions");
-		
+
 		driver.findElement(AppiumBy.id("android:id/button1")).click();
-		
+
 		Thread.sleep(2000);
 		driver.findElement(AppiumBy.className("android.widget.CheckBox")).click();
 		driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnProceed")).click();
