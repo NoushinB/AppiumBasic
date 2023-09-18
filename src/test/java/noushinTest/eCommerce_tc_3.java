@@ -33,10 +33,10 @@ public class eCommerce_tc_3 extends BaseTest {
 		// driver.findElements(AppiumBy.xpath("(//android.widget.TextView[@text='ADD TO
 		// CART'])[1]")).get(0).click();
 		driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/appbar_btn_cart")).click();
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.attributeContains(
 				driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/toolbar_title")), "text", "Cart"));
-		Thread.sleep(10000);
+		Thread.sleep(2000);
 		List<WebElement> productPrices = driver
 				.findElements(AppiumBy.id("com.androidsample.generalstore:id/productPrice"));
 		int count = productPrices.size();
@@ -57,6 +57,20 @@ public class eCommerce_tc_3 extends BaseTest {
 
 		Thread.sleep(3000);
 
-		System.out.print("Test Finished Successfully");
+		WebElement ele = driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/termsButton"));
+		longPressAction(ele);
+
+		String alertTitle = driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/alertTitle")).getText();
+		
+		Assert.assertEquals(alertTitle, "Terms Of Conditions");
+		
+		driver.findElement(AppiumBy.id("android:id/button1")).click();
+		
+		Thread.sleep(2000);
+		driver.findElement(AppiumBy.className("android.widget.CheckBox")).click();
+		driver.findElement(AppiumBy.id("com.androidsample.generalstore:id/btnProceed")).click();
+
+		Thread.sleep(3000);
+		System.out.print(Ids.FINISH_MESSAGE);
 	}
 }
