@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-18T23:35:54Z" name="Default suite" finished-at="2023-09-18T23:38:05Z" duration-ms="131362">
+  <suite started-at="2023-09-19T12:30:46Z" name="Default suite" finished-at="2023-09-19T12:32:49Z" duration-ms="123024">
     <groups>
     </groups>
-    <test started-at="2023-09-18T23:35:54Z" name="Default test" finished-at="2023-09-18T23:38:05Z" duration-ms="131362">
-      <class name="noushinTest.MobileBrowserTest">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.MobileBrowserTest@632ceb35]" started-at="2023-09-18T23:35:54Z" name="configureAppium" finished-at="2023-09-18T23:36:48Z" duration-ms="54291" status="PASS">
+    <test started-at="2023-09-19T12:30:46Z" name="Default test" finished-at="2023-09-19T12:32:49Z" duration-ms="123024">
+      <class name="noushinTest.MobileBrowserTest2">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:noushinTest.MobileBrowserTest2@1800a575]" started-at="2023-09-19T12:30:46Z" name="configureAppium" finished-at="2023-09-19T12:32:08Z" duration-ms="81787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="browserTest()[pri:0, instance:noushinTest.MobileBrowserTest@632ceb35]" started-at="2023-09-18T23:36:48Z" name="browserTest" finished-at="2023-09-18T23:38:02Z" duration-ms="73134" status="PASS">
+        <test-method signature="browserTest()[pri:0, instance:noushinTest.MobileBrowserTest2@1800a575]" started-at="2023-09-19T12:32:08Z" name="browserTest" finished-at="2023-09-19T12:32:47Z" duration-ms="38671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.MobileBrowserTest@632ceb35]" started-at="2023-09-18T23:38:02Z" name="tearDown" finished-at="2023-09-18T23:38:05Z" duration-ms="3856" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:noushinTest.MobileBrowserTest2@1800a575]" started-at="2023-09-19T12:32:47Z" name="tearDown" finished-at="2023-09-19T12:32:49Z" duration-ms="2523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- noushinTest.MobileBrowserTest -->
+      </class> <!-- noushinTest.MobileBrowserTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
